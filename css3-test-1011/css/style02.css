@@ -1,0 +1,60 @@
+body {
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #737373;
+	font: 12px/20px;
+}
+.clearboth {
+	clear: both;
+}	
+a {
+	text-decoration: none;
+}
+a, a img {
+	border: none;
+}	
+#wrapper { 
+	margin: 15px auto;
+	width: 950px;
+	height: 450px;
+	padding: 15px;
+	background: #ccc;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	-moz-box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #999;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	overflow: hidden;
+}
+.ul-gallery {
+	margin: 50px auto 0 auto;
+	width: 800px;
+}
+.ul-gallery li {
+	float: left;
+	margin: 0 10px;
+	padding: 10px;
+	border: 1px solid #a9a9a9;
+	list-style: none;
+	background: #f9f7f1;
+}
+.ul-gallery .li-image a img {
+	float: left;
+	width: 200px;
+	/* height: 150px; à mettre si taille image est dans tag*/
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -moz-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+.ul-gallery .li-image a:hover img {
+	-webkit-transform: scale(1.5) rotate(2deg);
+	-moz-transform: scale(1.5) rotate(2deg);
+	-o-transform: scale(1.5) rotate(2deg);
+	transform: scale(1.5) rotate(2deg);
+	-webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	
+}
