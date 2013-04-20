@@ -2,7 +2,7 @@
 
 ### Introdution
 
-Some test starging on 2010. I really need to add more file.
+Some test starting on 2010. I really need to add more project in it.
 
 ### To Do
 
